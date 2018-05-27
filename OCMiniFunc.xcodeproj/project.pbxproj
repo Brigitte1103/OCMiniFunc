@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42007CAB20B456EA0052F0EF /* UIViewController+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = 42007CAA20B456EA0052F0EF /* UIViewController+Present.m */; };
 		421DBC6120A9CDE000A32733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 421DBC6020A9CDE000A32733 /* AppDelegate.m */; };
 		421DBC6420A9CDE000A32733 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 421DBC6320A9CDE000A32733 /* ViewController.m */; };
 		421DBC6720A9CDE000A32733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421DBC6520A9CDE000A32733 /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42007CA920B456EA0052F0EF /* UIViewController+Present.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Present.h"; sourceTree = "<group>"; };
+		42007CAA20B456EA0052F0EF /* UIViewController+Present.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Present.m"; sourceTree = "<group>"; };
 		421DBC5C20A9CDE000A32733 /* OCMiniFunc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCMiniFunc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		421DBC5F20A9CDE000A32733 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		421DBC6020A9CDE000A32733 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42007CA820B456C20052F0EF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				42007CA920B456EA0052F0EF /* UIViewController+Present.h */,
+				42007CAA20B456EA0052F0EF /* UIViewController+Present.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		421DBC5320A9CDE000A32733 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +84,7 @@
 		421DBC5E20A9CDE000A32733 /* OCMiniFunc */ = {
 			isa = PBXGroup;
 			children = (
+				42007CA820B456C20052F0EF /* Category */,
 				421DBC7520A9CF0300A32733 /* Main */,
 				4299715820AB1FD0006763AB /* Image */,
 				421DBC5F20A9CDE000A32733 /* AppDelegate.h */,
@@ -202,6 +215,7 @@
 			files = (
 				421DBC7820A9D1B100A32733 /* PageModel.m in Sources */,
 				421DBC6420A9CDE000A32733 /* ViewController.m in Sources */,
+				42007CAB20B456EA0052F0EF /* UIViewController+Present.m in Sources */,
 				421DBC6F20A9CDE000A32733 /* main.m in Sources */,
 				421DBC7D20A9DE6B00A32733 /* AppIconController.m in Sources */,
 				421DBC6120A9CDE000A32733 /* AppDelegate.m in Sources */,
